@@ -1,0 +1,32 @@
+.popup {
+    margin-top: 20px;
+    display: none;
+    width: 350px;
+    padding: 25px 25px 25px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.popup .popup__input {
+    margin-bottom: 20px;
+}
+
+.popup .popup__input input {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 250px;
+}
+
+.popup__button {
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.popup__button:hover {
+    background: rgb(197, 196, 196);
+}

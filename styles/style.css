@@ -1,0 +1,40 @@
+@import './extra.css';
+@import './popup.css';
+@import './weather.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+    background: url("../images/cloudy_day_bg.png");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.map {
+    padding: 50px;
+}
+
+.container, .map {
+    max-width: 1150px;
+    margin: 0 auto;
+}

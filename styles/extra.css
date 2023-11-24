@@ -1,0 +1,26 @@
+.btn-reset {
+    font-size: 18px;
+    border: none;
+    opacity: 0.6;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-reset:hover {
+    opacity: 0.9;
+}
+
+.unit-current {
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.city__container {
+    padding-top: 50px;
+}
+
+.city-name {
+    font-size: 4em;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
